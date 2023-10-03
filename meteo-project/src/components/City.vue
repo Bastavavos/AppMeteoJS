@@ -1,23 +1,22 @@
 <template>
   <div>
-    <p> {{name}} </p>
-    <p> {{weather}} </p>
-    <p> {{temperature}} </p>
-    <p> {{updatedAt.toLocaleString()}} </p>
+    <p> nom : {{name}}</p>
+    <p> temps : {{weather}}</p>
+    <p> température : {{temperature}}</p>
+    <p> date : {{updatedAt}}</p>
   </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      name: 'Ville 1',
-      weather: 'Pluie diluvienne',
-      temperature: 15,
-      updatedAt: new Date()
-    }
-  }
 
+export default {
+
+  props: {
+      name: String,
+      weather: String,
+      temperature: Number,
+      updatedAt: Date
+  },
 }
 </script>
 

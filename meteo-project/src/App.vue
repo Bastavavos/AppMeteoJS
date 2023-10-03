@@ -3,7 +3,7 @@
     <OnListClick/>
 <!--    <CitiesList/>-->
     <router-view></router-view>
-    <router-link to="/cities"></router-link>
+    <router-link to="/villes"></router-link>
     <router-link to="/ville"></router-link>
 
   </div>

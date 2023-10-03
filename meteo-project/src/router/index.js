@@ -11,8 +11,8 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/cities',
-      name: 'cities',
+      path: '/villes',
+      name: 'villes',
       component: () => import('../views/CitiesList.vue')
     },
     {
