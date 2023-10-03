@@ -18,6 +18,7 @@
 </template>
 
 <script>
+
 import City from "../components/City.vue";
 
 export default {
